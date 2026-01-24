@@ -43,4 +43,20 @@ Rezultati obrade se prenose na računar putem **UART interfejsa**, gdje se rekon
 
 ## Struktura repozitorijuma
 
-
+fpga_image_processing/
+│
+├── vhdl/
+│ ├── top_image_processing.vhd
+│ ├── filter_invert_rgb565.vhd
+│ ├── filter_grayscale.vhd
+│ ├── filter_threshold.vhd
+│ ├── filter_sobel.vhd
+│ ├── image_ram.vhd
+│ ├── uart_tx.vhd
+│ └── image_processing_pkg.vhd
+│
+├── python_uart/
+│ ├── receive_image_uart.py
+│ └── image_to_mif.py
+│
+└── README.md
