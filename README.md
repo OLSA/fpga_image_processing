@@ -1,4 +1,4 @@
-# FPGA Image Processing
+# FPGA image processing
 
 Hardverska implementacija obrade digitalnih slika na FPGA platformi, realizovana u okviru projektnog zadatka iz predmeta **Paralelno programiranje** (Elektrotehnički fakultet, Univerzitet u Podgorici).
 
