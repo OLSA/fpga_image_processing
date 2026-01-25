@@ -1,6 +1,6 @@
 # FPGA image processing
 
-Hardverska implementacija obrade digitalnih slika na FPGA platformi, realizovana u okviru projektnog zadatka iz predmeta **Paralelno programiranje** (Elektrotehnički fakultet, Univerzitet u Podgorici).
+Hardverska implementacija obrade digitalnih slika na FPGA platformi, realizovana u okviru projektnog zadatka iz predmeta **Paralelno programiranje** (ETF Podgorica).
 
 Projekat demonstrira principe **paralelnog procesiranja** karakteristične za FPGA arhitekture kroz implementaciju više filtera za obradu slike koji rade istovremeno nad istim ulaznim podacima.
 
