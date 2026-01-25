@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- Byte-addressed image RAM initialized from image_200x200_rgb565.mif
--- Copied from sobel_image_ram.vhd (entity name is already generic: image_ram).
 entity image_ram is
     port (
         clk  : in  std_logic;
