@@ -35,7 +35,7 @@ Rezultati obrade se prenose na računar putem **UART interfejsa**, gdje se rekon
 
 ### Softver i alati
 - **VHDL** – implementacija hardverskih modula
-- **Intel Quartus Prime** – sinteza i implementacija
+- **Intel Quartus Lite** – sinteza i implementacija
 - **Python** – prijem i prikaz slike preko UART-a
 - **NumPy / Matplotlib** – obrada i vizualizacija slike
 
