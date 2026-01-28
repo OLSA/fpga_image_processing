@@ -1,3 +1,9 @@
+"""
+image_to_mif.py
+
+Python skripta za konverziju ulazne slike u MIF format
+koji se koristi za dalju obradu u FPGA projektu.
+"""
 from PIL import Image
 import numpy as np
 
@@ -41,4 +47,5 @@ with open(MIF_FILE, "w") as f:
 
 print("MIF file generated:", MIF_FILE)
 print("Bytes:", len(data))
+
 
