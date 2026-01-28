@@ -4,7 +4,7 @@ import numpy as np
 # -------- PARAMETRI --------
 W = 200
 H = 200
-IMAGE_FILE = "test.jpg"
+IMAGE_FILE = "lena.jpg"
 MIF_FILE = "image_200x200_rgb565.mif"
 
 # -------- UČITAJ I PRIPREMI SLIKU --------
@@ -41,3 +41,4 @@ with open(MIF_FILE, "w") as f:
 
 print("MIF file generated:", MIF_FILE)
 print("Bytes:", len(data))
+
