@@ -1,3 +1,10 @@
+"""
+display.py
+
+Python skripta za prijem podataka sa FPGA modula preko UART interfejsa
+i prikaz rezultata obrade slike. Skripta prima zaglavlje i payload,
+rekonstruiše sliku i prikazuje je na računaru.
+"""
 import serial
 import time
 import numpy as np
