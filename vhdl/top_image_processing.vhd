@@ -1,3 +1,16 @@
+-- ============================================================================
+--  File: top_image_processing.vhd
+--
+--  Top-level modul sistema za obradu slike na FPGA.
+--  Modul integriše memorijski podsistem (BlockRAM), paralelne filtere
+--  (Invert, Grayscale, Threshold, Sobel), FSM kontroler, izlazni
+--  multiplekser i UART transmiter.
+--
+--  Sistem čita piksele iz memorije u raster-scan redoslijedu, paralelno
+--  ih prosljeđuje filterima, a izlaz izabranog filtera šalje sekvencijalno
+--  preko UART interfejsa ka računaru.
+-- ============================================================================
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
